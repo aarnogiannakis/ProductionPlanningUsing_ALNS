@@ -8,9 +8,10 @@ This script encapsulates the implementation of an Adaptive Large Neighborhood Se
 -   **Initialization**: Generates a feasible initial solution that respects production line capacities and maximizes initial revenue using a deterministic heuristic.
 -   **Destroy Operators**: Two methods are implemented to remove orders from the production lines,
                       promoting solution space exploration:
-                      1. Apocalypse - Randomly removes a subset of orders.
+                     -   1. Apocalypse - Randomly removes a subset of orders.
 
                       2. Ragnarok - Targets specific orders and their neighbors for removal.
+
 -   **Repair Operator**: A greedy heuristic, Bob_The_Builder, that reinserts orders to optimize the current solution, aiming for revenue increment.
 -   **Adaptive Mechanism:** Dynamically adjusts the probability of employing destroy operators based 
                        on their past performance, balancing diversification and intensification.
