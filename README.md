@@ -1,6 +1,6 @@
 # ProductionPlanningUsing_ALNS
 
-
+This project is my submission for the course 42137 Optimization using Metaheuristics, taught by Thomas Jacob Riis Stidsen and Dario Pacino at DTU.
 
 This script encapsulates the implementation of an Adaptive Large Neighborhood Search (ALNS) for addressing the production planning problem at PlastOut A/S. The primary objective is to maximize the revenue by effectively planning the assignment of orders to production lines within a specified time horizon, accounting for individual product revenues and additional revenue from pairing products on the same production line.
 
